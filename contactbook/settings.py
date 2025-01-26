@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -74,16 +75,13 @@ WSGI_APPLICATION = 'contactbook.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',  # PostgreSQL engine
-        'NAME': 'contactmanagerthasni',             # Database name
-        'USER': 'contactmanagerthasni_user',        # Database user
-        'PASSWORD': 'JVYzdMxbZR6ogzKcFtZflU1Te7CWrP53',  # Database password
-        'HOST': 'dpg-cuatmc0gph6c73a22ok0-a',       # Database host (provided by Render)
-        'PORT': '5432',                             # Default PostgreSQL port
-    }
+    'default': dj_database_url.config(
+        default='postgresql://contactmanagerthasni_user:JVYzdMxbZR6ogzKcFtZflU1Te7CWrP53@dpg-cuatmc0gph6c73a22ok0-a.oregon-postgres.render.com/contactmanagerthasni'
+    )
 }
+
 
 
 
