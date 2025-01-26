@@ -57,7 +57,7 @@ landing page of contact book welcoming the user and showingthe option to redirec
 this is the contact list page it shows the details of the saved contacts, you can delete and search for particular person and you can also redirect to add contacts page
 
 ![Screenshot3](https://github.com/user-attachments/assets/5e8fd707-fd58-4e35-8ed9-27b243afcd0c)
-you can add the contact details of particular person and you can head back to the contact list page to
+you can add the contact details of particular person and you can head back to the contact list page too
 
 
 
