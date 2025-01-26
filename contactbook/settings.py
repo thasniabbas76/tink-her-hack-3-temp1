@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-qt*n^d-mtj69$25is=j&_88s5t(+9v-#wys-&eb$vl6nej!b)^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://tink-her-hack-3-temp1.onrender.com', 'localhost']
 
 
 # Application definition
