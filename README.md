@@ -49,7 +49,7 @@ python manage.py runserver #run the django development
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots 
 ![Screenshot1](https://github.com/user-attachments/assets/4f988290-a5a1-4d88-92f0-c43f51641c97)
 landing page of contact book welcoming the user and showingthe option to redirect to contact list page
 
